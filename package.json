@@ -1,10 +1,11 @@
 {
   "name": "studbud-2022",
   "version": "1.0.0",
-  "description": "Web application for studyin",
+  "description": "Web application for studying",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,6 @@
   "homepage": "https://github.com/kristali/studbud-2022#readme",
   "dependencies": {
     "express": "^4.17.3"
-  }
+  },
+  "devDependencies": {}
 }
